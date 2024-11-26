@@ -1,0 +1,178 @@
+
+{
+  "name":"BWM-XMD",
+  "description":"Best whatsapp bot developed by Ibrahim adams",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://files.catbox.moe/h2ydge.jpg",
+  "repository":"https://github.com/ekitale/maths-project",
+  "succes_url":"/",
+  "stack":"heroku-24",
+  "env":{
+    "PREFIX":
+    {
+      "description":"choose your prefix for your bot",
+      "value":".",
+      "required":true
+    },
+"AUTO_REACT":
+    {
+      "description":"Enter yes for your bot to auto react",
+      "value":"no",
+      "required":false
+    },
+"AUTO_SAVE_CONTACTS":
+    {
+      "description":"Enter yes for your bot to auto save numbers",
+      "value":"no",
+      "required":false
+    },
+"AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto react status",
+      "value":"yes",
+      "required":false
+    },
+"ANTICALL":
+    {
+      "description":"Enter yes for your bot to auto reject calls",
+      "value":"no",
+      "required":false
+    },
+"AUTO_REPLY":
+    {
+      "description":"Enter yes for your bot to auto reply message when offline",
+      "value":"no",
+      "required":false
+    },
+"AUTO_BIO":
+    {
+      "description":"Enter yes for your bot to auto bio or no to decline",
+      "value":"yes",
+      "required":false
+    },
+
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your status will be reading automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"You status will be sending status to your inbox automatically (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    },
+    "AUTO_READ":
+    {
+      "description":"Your contact  will be reading messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"no",
+      "required":false   
+      },
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"BWM-XMD",
+      "required":false
+
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://files.catbox.moe/h2ydge.jpg",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"yes",
+      "required":false
+    }
+	,
+    "HEROKU_API_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :false
+    },
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :false
+    }  
+	  ,
+    "NUMERO_OWNER":
+    {
+      
+    "description":"233555223229",   
+      "value":"233555223229",
+    "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Owner name",
+    "required": false,
+    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+  },
+    "SESSION_ID":{
+    "description":"BWM-XMD;;;H4sIAAAAAAAAA5VUS3KrRhTdSqqnwhFfCVTlqgBCHyRZ6GMwpN6gBQ20gAbxEUIujZIdZAeZvkEqg6zAG8oSUkh22YO8F2fWdWnOPX3OPfcZkBQXaIYaMHgGWY6PsETtsWwyBAZAqXwf5YACHiwhGIBq7ms6Dh+dbb3SEF9BP1ibwXk3qrx5n3SI1dj0rm6WW6LdgwsFsmoXY/c7gGfed+fYimyeszMYb6OV/bAxWDQ97GWiGZLSxV3+mE8LeXEPLi0ixDkmgZaFKEE5jGeoMSDOP0cfjkiwTWfNmnvscTMr8Atah7QdOpZHhAPB/fVkN9m6GcPSn6MfS5HgrYRR4ruK0ONP0w3cqwI3JBUqjXxUh5ap9sUZq5vRjX6BA4K8qYdIicvm07ofllOH4L7Jao+Jt2eJUp1pEevjSo9GxkgcB6ftJBJqTmX4zxE3h3qcHbRafuqsnkxNYqKJ2Kk9dUzDcSROmqbu2HaviA5N/ZG4kb/NSvR/dD/M3IMnGME4mdfJwgurvNwPoSsrPHK5Fe2saYUTzyEOJtHn6C+Srnr0GV1bK5aKjPliyUV9JobcXDsPtRk+Z26J6yPdsbR3+rCs8u+xzMtjRka8Paki6SQ2UuY3dBKG6aNGdxdkJVpTRvSzwBTVh7i33BtopOf2+JyMJG0+rEvFwaY8SrrsU16Z433nkbEPzF6+v74oQs3UAwPmQoEcBbgoc1jilLQ1lhYoAL3jBrk5Kq/ygtQ6i0yzh0jdSc6QMI044XqM4ZhVd8gd09w6+TRzcHj/uLoHFMjy1EVFgbwJLso0bxaoKGCACjD4+QsFCDqVN+Padj2GAj7Oi/KRVFmcQu/N1beP0HXTipSbhrhqe0A5GNDvZVSWmARFq2NFYO6G+IjUEJYFGPgwLtCFAh46Yhe1eEDYVxvejR+2i03hhs6o8VCSrVrKYUpuV9g+wzMc9O9cn+nf8VD073YML92JjOfyAkQcL3qAAvg1M+0/37QwmCuswzuzkd0hQbicTvsa8bT+WbPqqw037VGOPDAo8wpRYAfdqMq2aYTId3B1/ag72kqymOHyieeDmIV7n2gbv0k/4N48BYPn9z2lpl6LxxnybLadDAEFkusI4uvLOU4QBJblWFYaMMxPxY91KyTMsh8JKgEFCGxvg79/++Wvl193L19f/nz5/Yf1y9cgePnj5Wtbbpu/OtPCeqiEOC7AAKizfcym9VBb4EWcp+OxrAWyGsjg3cm3SNxGboeNMXSHnHbMAtzsmrmw5Feb5Rqp2DuuiZqOdHMMhRgm7v2/gIABYJIHwhfRqloVYjOkRXPdYx3ZCuQuM+TNTGfkhyyvat14GC5Dk2mk8JBC3Q8T39NtTlooRT51rCl0+LCyjdnqsA8lObhvu90m6mMz3Z3G+lHrWeVDkmUmontrO5y7eFl5s5ki8AnhVrbhxic0YuraXnbMg28oYrZOlKDnp1UgdeFeO83SeZ9ORMaoI6sI61tYr8sifl3S+Bqj59f58zG67rxXZ/7Twfco0BfqA8brFv3GuCkWvz8lRJZO8549LRIRd7aVpu2jpyAlO9qpD8rGXCeVY2UEXC5fKJDFsPTTPAEDUCQ7CCgQw6KU36O8xQkqSphkYMD0ObZHSz2WvfwDWAmRZAAIAAA=",   
+      "value":"",
+     "required":true
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "3"
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "if you don't want startting-bot-message put no else put yes",
+    "required": true,
+    "value": "yes"
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"",
+    "required": false
+  },
+  "ANTIDELETE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "yes",
+        "required": false
+  }
+  },
+
+        
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+
+  "formation": {
+                "worker": {
+                        "quantity": 1,
+                        "size": "basic"
+                }
+        },
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
